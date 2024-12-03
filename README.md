@@ -24,15 +24,18 @@ This project scrapes messages from specified Telegram channels related to the st
                   pip install telethon textblob scikit-learn pandas numpy pytz python-dotenv
                    
 3.**Set Up Telegram API Credentials:**
+
 Obtain your api_id and api_hash from the Telegram API.
 Replace the placeholders in the script (api_id, api_hash, and phone_number) with your credentials.
 
 ##**Usage**
+
 **1.Scraping Messages:**
+
 Run the main function to scrape messages from the specified Telegram channels.
 Messages will be saved to a CSV file named telegram_stock_data.csv.
 
-python telegram_scraper.py
+                              python telegram_scraper.py
 
 **2.Sentiment Analysis:**
 
@@ -44,12 +47,17 @@ The RandomForestClassifier is used to classify messages based on whether they ar
 Evaluation Metrics:
 
 4.**After training the machine learning model, the following metrics are displayed:**
+
 Accuracy
+
 Precision
+
 Recall
+
 F1 Score
 
 **5.Download the Processed CSV File:**
+
 
 The processed CSV files can be downloaded directly:
 telegram_stock_data.csv
