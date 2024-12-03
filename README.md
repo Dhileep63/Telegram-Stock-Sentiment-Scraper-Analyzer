@@ -19,9 +19,9 @@ This project scrapes messages from specified Telegram channels related to the st
    ```bash
    git clone https://github.com/your-username/telegram-stock-analyzer.git
    cd telegram-stock-analyzer
-2.**Install Required Libraries**: Ensure Python 3.8+ is installed. Install the necessary libraries:
-                   '''bash  
-                   pip install telethon textblob scikit-learn pandas numpy pytz python-dotenv
+2.**Install Required Libraries**: Ensure Python 3.8+ is installed. Install the necessary libraries:  
+
+                  pip install telethon textblob scikit-learn pandas numpy pytz python-dotenv
                    
 3.**Set Up Telegram API Credentials:**
 Obtain your api_id and api_hash from the Telegram API.
@@ -31,6 +31,8 @@ Replace the placeholders in the script (api_id, api_hash, and phone_number) with
 **1.Scraping Messages:**
 Run the main function to scrape messages from the specified Telegram channels.
 Messages will be saved to a CSV file named telegram_stock_data.csv.
+
+python telegram_scraper.py
 
 **2.Sentiment Analysis:**
 
